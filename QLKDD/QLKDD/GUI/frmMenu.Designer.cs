@@ -257,6 +257,7 @@
             this.btnfrmthongke.TabIndex = 9;
             this.btnfrmthongke.Text = "THỐNG KÊ";
             this.btnfrmthongke.UseVisualStyleBackColor = false;
+            this.btnfrmthongke.Click += new System.EventHandler(this.btnfrmthongke_Click);
             // 
             // panel2
             // 

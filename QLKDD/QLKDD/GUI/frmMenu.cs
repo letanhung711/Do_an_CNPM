@@ -57,7 +57,7 @@ namespace QLKDD.GUI
 
         private void frmMenu_Load(object sender, EventArgs e)
         {
-
+            openChildForm(new frmThongKe());
         }
 
         private void btnfrmKH_Click(object sender, EventArgs e)
@@ -84,17 +84,13 @@ namespace QLKDD.GUI
 
         private void btnhoadon_Click(object sender, EventArgs e)
         {
-            //..
-            //code
-            //..
+            openChildForm(new frmHoaDon());
             hidesubmenu();
         }
 
         private void btntieuthu_Click(object sender, EventArgs e)
         {
-            //..
-            //code
-            //..
+            openChildForm(new frmTieuThu());
             hidesubmenu();
         }
 
@@ -111,6 +107,11 @@ namespace QLKDD.GUI
         private void btnfrmHD_Click(object sender, EventArgs e)
         {
             openChildForm(new frmHopDong());
+        }
+
+        private void btnfrmthongke_Click(object sender, EventArgs e)
+        {
+            openChildForm(new frmThongKe());
         }
     }
 }
