@@ -40,6 +40,15 @@ namespace QLKDD.GUI
             else
                 submenu.Visible = false;
         }
+
+        private string chucvu;
+        private string manv;
+        public frmMenu(string ma_nv, string chuc_vu) : this()
+        {
+            manv = ma_nv;
+            chucvu = chuc_vu;
+        }
+
         private Form activeForm = null;
         public void openChildForm(Form childForm)
         {
@@ -56,6 +65,24 @@ namespace QLKDD.GUI
         }
 
         private void frmMenu_Load(object sender, EventArgs e)
+        {
+            openChildForm(new frmThongKe());
+            if(chucvu=="CV02")
+            {
+                btnfrmthongke.Visible = false;
+                btnfrmHD.Visible = false;
+                btnfrmNV.Visible = false;
+                btnfrmTK.Visible = false;
+            }
+        }
+
+        private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (isthoat)
+                Application.Exit();
+        }
+
+        private void btnfrmthongke_Click(object sender, EventArgs e)
         {
             openChildForm(new frmThongKe());
         }
@@ -77,12 +104,22 @@ namespace QLKDD.GUI
             hidesubmenu();
         }
 
-        private void btnfrmtiendien_Click(object sender, EventArgs e)
+        private void btnfrmHD_Click(object sender, EventArgs e)
+        {
+            openChildForm(new frmHopDong());
+        }
+
+        private void btnfrmNV_Click(object sender, EventArgs e)
+        {
+            openChildForm(new frmNhanVien());
+        }
+
+        private void btntiendien_Click(object sender, EventArgs e)
         {
             showsubmenu(panelTDsubmenu);
         }
 
-        private void btnhoadon_Click(object sender, EventArgs e)
+        private void btnfrmhoadon_Click(object sender, EventArgs e)
         {
             openChildForm(new frmHoaDon());
             hidesubmenu();
@@ -94,24 +131,19 @@ namespace QLKDD.GUI
             hidesubmenu();
         }
 
-        private void btnfrmNV_Click(object sender, EventArgs e)
-        {
-            openChildForm(new frmNhanVien());
-        }
-
         private void btnfrmTK_Click(object sender, EventArgs e)
         {
             openChildForm(new frmNguoiDung());
         }
 
-        private void btnfrmHD_Click(object sender, EventArgs e)
+        //Dang xuat
+        private bool isthoat = true;
+        private void btndangxuat_Click(object sender, EventArgs e)
         {
-            openChildForm(new frmHopDong());
-        }
-
-        private void btnfrmthongke_Click(object sender, EventArgs e)
-        {
-            openChildForm(new frmThongKe());
+            isthoat = false;
+            this.Close();
+            Form1 dn = new Form1();
+            dn.Show();
         }
     }
 }
