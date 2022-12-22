@@ -52,6 +52,8 @@
             this.txttimkiem = new Bunifu.UI.WinForms.BunifuTextBox();
             this.btntracuu = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.cbtrangthai = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
             this.dtpngaygui = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
             this.dtpngaydoccs = new Bunifu.UI.WinForms.BunifuDatePicker();
@@ -67,22 +69,20 @@
             this.txtmahd = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.lvds = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnhuy = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnsua = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnxoa = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnluu = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnthem = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnin = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.cbtrangthai = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -292,6 +292,65 @@
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(1091, 207);
             this.bunifuPanel1.TabIndex = 1;
+            // 
+            // cbtrangthai
+            // 
+            this.cbtrangthai.BackColor = System.Drawing.Color.Transparent;
+            this.cbtrangthai.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(44)))), ((int)(((byte)(63)))));
+            this.cbtrangthai.BorderColor = System.Drawing.Color.White;
+            this.cbtrangthai.BorderRadius = 1;
+            this.cbtrangthai.Color = System.Drawing.Color.White;
+            this.cbtrangthai.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.cbtrangthai.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.cbtrangthai.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.cbtrangthai.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.cbtrangthai.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.cbtrangthai.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.cbtrangthai.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbtrangthai.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.cbtrangthai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbtrangthai.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.cbtrangthai.FillDropDown = true;
+            this.cbtrangthai.FillIndicator = false;
+            this.cbtrangthai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbtrangthai.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbtrangthai.ForeColor = System.Drawing.Color.White;
+            this.cbtrangthai.FormattingEnabled = true;
+            this.cbtrangthai.Icon = null;
+            this.cbtrangthai.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.cbtrangthai.IndicatorColor = System.Drawing.Color.White;
+            this.cbtrangthai.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.cbtrangthai.ItemBackColor = System.Drawing.Color.White;
+            this.cbtrangthai.ItemBorderColor = System.Drawing.Color.White;
+            this.cbtrangthai.ItemForeColor = System.Drawing.Color.Black;
+            this.cbtrangthai.ItemHeight = 26;
+            this.cbtrangthai.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.cbtrangthai.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.cbtrangthai.ItemTopMargin = 3;
+            this.cbtrangthai.Location = new System.Drawing.Point(704, 154);
+            this.cbtrangthai.Name = "cbtrangthai";
+            this.cbtrangthai.Size = new System.Drawing.Size(260, 32);
+            this.cbtrangthai.TabIndex = 30;
+            this.cbtrangthai.Text = null;
+            this.cbtrangthai.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.cbtrangthai.TextLeftMargin = 5;
+            // 
+            // bunifuLabel8
+            // 
+            this.bunifuLabel8.AllowParentOverrides = false;
+            this.bunifuLabel8.AutoEllipsis = false;
+            this.bunifuLabel8.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel8.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel8.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel8.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel8.Location = new System.Drawing.Point(593, 160);
+            this.bunifuLabel8.Name = "bunifuLabel8";
+            this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel8.Size = new System.Drawing.Size(75, 21);
+            this.bunifuLabel8.TabIndex = 29;
+            this.bunifuLabel8.Text = "Trạng thái:";
+            this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // dtpngaygui
             // 
@@ -748,6 +807,47 @@
             this.lvds.View = System.Windows.Forms.View.Details;
             this.lvds.Click += new System.EventHandler(this.lvds_Click);
             // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Mã hóa đơn";
+            this.columnHeader1.Width = 99;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Đợt";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Tên khách hàng";
+            this.columnHeader3.Width = 113;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.DisplayIndex = 6;
+            this.columnHeader7.Text = "Mã tiêu thụ";
+            this.columnHeader7.Width = 108;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.DisplayIndex = 3;
+            this.columnHeader4.Text = "Ngày đọc chỉ số";
+            this.columnHeader4.Width = 101;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.DisplayIndex = 4;
+            this.columnHeader5.Text = "Ngày gửi";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.DisplayIndex = 5;
+            this.columnHeader6.Text = "Ngày thu tiền";
+            this.columnHeader6.Width = 98;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Trạng thái";
+            // 
             // btnhuy
             // 
             this.btnhuy.AllowAnimations = true;
@@ -852,7 +952,7 @@
             this.btnsua.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(44)))), ((int)(((byte)(63)))));
             this.btnsua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsua.BackgroundImage")));
             this.btnsua.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnsua.ButtonText = "SỬA";
+            this.btnsua.ButtonText = "CẬP NHẬT";
             this.btnsua.ButtonTextMarginLeft = 0;
             this.btnsua.ColorContrastOnClick = 45;
             this.btnsua.ColorContrastOnHover = 45;
@@ -1287,106 +1387,6 @@
             this.btnin.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnin.UseDefaultRadiusAndThickness = true;
             this.btnin.Click += new System.EventHandler(this.btnin_Click);
-            // 
-            // bunifuLabel8
-            // 
-            this.bunifuLabel8.AllowParentOverrides = false;
-            this.bunifuLabel8.AutoEllipsis = false;
-            this.bunifuLabel8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel8.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel8.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel8.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel8.Location = new System.Drawing.Point(593, 160);
-            this.bunifuLabel8.Name = "bunifuLabel8";
-            this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel8.Size = new System.Drawing.Size(75, 21);
-            this.bunifuLabel8.TabIndex = 29;
-            this.bunifuLabel8.Text = "Trạng thái:";
-            this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // cbtrangthai
-            // 
-            this.cbtrangthai.BackColor = System.Drawing.Color.Transparent;
-            this.cbtrangthai.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(44)))), ((int)(((byte)(63)))));
-            this.cbtrangthai.BorderColor = System.Drawing.Color.White;
-            this.cbtrangthai.BorderRadius = 1;
-            this.cbtrangthai.Color = System.Drawing.Color.White;
-            this.cbtrangthai.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.cbtrangthai.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.cbtrangthai.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.cbtrangthai.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.cbtrangthai.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.cbtrangthai.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.cbtrangthai.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbtrangthai.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.cbtrangthai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbtrangthai.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.cbtrangthai.FillDropDown = true;
-            this.cbtrangthai.FillIndicator = false;
-            this.cbtrangthai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbtrangthai.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbtrangthai.ForeColor = System.Drawing.Color.White;
-            this.cbtrangthai.FormattingEnabled = true;
-            this.cbtrangthai.Icon = null;
-            this.cbtrangthai.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.cbtrangthai.IndicatorColor = System.Drawing.Color.White;
-            this.cbtrangthai.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.cbtrangthai.ItemBackColor = System.Drawing.Color.White;
-            this.cbtrangthai.ItemBorderColor = System.Drawing.Color.White;
-            this.cbtrangthai.ItemForeColor = System.Drawing.Color.Black;
-            this.cbtrangthai.ItemHeight = 26;
-            this.cbtrangthai.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.cbtrangthai.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.cbtrangthai.ItemTopMargin = 3;
-            this.cbtrangthai.Location = new System.Drawing.Point(704, 154);
-            this.cbtrangthai.Name = "cbtrangthai";
-            this.cbtrangthai.Size = new System.Drawing.Size(260, 32);
-            this.cbtrangthai.TabIndex = 30;
-            this.cbtrangthai.Text = null;
-            this.cbtrangthai.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.cbtrangthai.TextLeftMargin = 5;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Mã hóa đơn";
-            this.columnHeader1.Width = 99;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Đợt";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Tên khách hàng";
-            this.columnHeader3.Width = 113;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.DisplayIndex = 3;
-            this.columnHeader4.Text = "Ngày đọc chỉ số";
-            this.columnHeader4.Width = 101;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.DisplayIndex = 4;
-            this.columnHeader5.Text = "Ngày gửi";
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.DisplayIndex = 5;
-            this.columnHeader6.Text = "Ngày thu tiền";
-            this.columnHeader6.Width = 98;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.DisplayIndex = 6;
-            this.columnHeader7.Text = "Mã tiêu thụ";
-            this.columnHeader7.Width = 108;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Trạng thái";
             // 
             // frmHoaDon
             // 

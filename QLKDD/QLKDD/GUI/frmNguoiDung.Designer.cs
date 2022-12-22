@@ -875,7 +875,7 @@
             this.btnsua.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(44)))), ((int)(((byte)(63)))));
             this.btnsua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsua.BackgroundImage")));
             this.btnsua.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnsua.ButtonText = "SỬA";
+            this.btnsua.ButtonText = "CẬP NHẬT";
             this.btnsua.ButtonTextMarginLeft = 0;
             this.btnsua.ColorContrastOnClick = 45;
             this.btnsua.ColorContrastOnHover = 45;

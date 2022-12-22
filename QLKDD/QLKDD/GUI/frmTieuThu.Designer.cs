@@ -82,12 +82,12 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnhuy = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnthem = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.label1 = new System.Windows.Forms.Label();
             this.lbltongtien = new System.Windows.Forms.Label();
             this.btntinhtien = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -894,7 +894,7 @@
             this.btnsua.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(44)))), ((int)(((byte)(63)))));
             this.btnsua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsua.BackgroundImage")));
             this.btnsua.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnsua.ButtonText = "SỬA";
+            this.btnsua.ButtonText = "CẬP NHẬT";
             this.btnsua.ButtonTextMarginLeft = 0;
             this.btnsua.ColorContrastOnClick = 45;
             this.btnsua.ColorContrastOnHover = 45;
@@ -1120,6 +1120,11 @@
             // 
             this.columnHeader8.Text = "Điện kế";
             this.columnHeader8.Width = 109;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Thành tiền";
+            this.columnHeader9.Width = 93;
             // 
             // btnhuy
             // 
@@ -1412,11 +1417,6 @@
             this.btntinhtien.TextPadding = new System.Windows.Forms.Padding(0);
             this.btntinhtien.UseDefaultRadiusAndThickness = true;
             this.btntinhtien.Click += new System.EventHandler(this.btntinhtien_Click);
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Thành tiền";
-            this.columnHeader9.Width = 93;
             // 
             // frmTieuThu
             // 
