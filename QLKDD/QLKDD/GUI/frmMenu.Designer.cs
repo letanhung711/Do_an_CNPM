@@ -297,7 +297,7 @@
             this.Controls.Add(this.panelchildForm);
             this.Controls.Add(this.panel1);
             this.Name = "frmMenu";
-            this.Text = "Trang chủ";
+            this.Text = "Xavia";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMenu_FormClosed);
             this.Load += new System.EventHandler(this.frmMenu_Load);

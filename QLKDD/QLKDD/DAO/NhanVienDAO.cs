@@ -69,7 +69,7 @@ namespace QLKDD.DAO
 
         public static void ThemNV(NhanVienDTO nv)
         {
-            string sql = "insert into NhanVien (MaNV , MK , TenNV , NgaySinh , GioiTinh , DiaChi , SDT , MaCV ) values ('" + nv.MaNV + "' , '" + nv.MK + "' , N'" + nv.TenNV + "' , '" + nv.NgaySinh + "' , '" + nv.GioiTinh + "' , N'" + nv.DiaChi + "' , '" + nv.SDT + "' , N'" + nv.MaCV + "')";
+            string sql = "insert into NhanVien (MaNV , MK , TenNV , NgaySinh , GioiTinh , DiaChi , SDT , MaCV ) values ('" + nv.MaNV + "' , '123' , N'" + nv.TenNV + "' , '" + nv.NgaySinh + "' , '" + nv.GioiTinh + "' , N'" + nv.DiaChi + "' , '" + nv.SDT + "' , N'" + nv.MaCV + "')";
             KNCSDL.ThucThiCauTruyVan(sql);
         }
         public static void CapNhatNV(NhanVienDTO nv)

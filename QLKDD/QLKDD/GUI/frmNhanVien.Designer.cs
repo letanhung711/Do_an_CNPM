@@ -432,6 +432,7 @@
             this.txtmk.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtmk.DefaultFont = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmk.DefaultText = "";
+            this.txtmk.Enabled = false;
             this.txtmk.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(44)))), ((int)(((byte)(63)))));
             this.txtmk.HideSelection = true;
             this.txtmk.IconLeft = null;
