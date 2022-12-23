@@ -64,7 +64,6 @@
             this.btnTracuu = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuGroupBox1 = new Bunifu.UI.WinForms.BunifuGroupBox();
             this.dtpngaysinh = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.cbcv = new Bunifu.UI.WinForms.BunifuDropdown();
             this.rdnu = new System.Windows.Forms.RadioButton();
             this.rdnam = new System.Windows.Forms.RadioButton();
@@ -73,13 +72,6 @@
             this.txtdiachi = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txttennv = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtmanv = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnThem = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnLuu = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnXoa = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -94,6 +86,14 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.bunifuGroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -279,8 +279,15 @@
             this.bunifuGroupBox1.BorderColor = System.Drawing.Color.White;
             this.bunifuGroupBox1.BorderRadius = 1;
             this.bunifuGroupBox1.BorderThickness = 1;
+            this.bunifuGroupBox1.Controls.Add(this.label8);
+            this.bunifuGroupBox1.Controls.Add(this.label7);
+            this.bunifuGroupBox1.Controls.Add(this.label6);
+            this.bunifuGroupBox1.Controls.Add(this.label5);
+            this.bunifuGroupBox1.Controls.Add(this.label3);
+            this.bunifuGroupBox1.Controls.Add(this.label2);
+            this.bunifuGroupBox1.Controls.Add(this.label1);
+            this.bunifuGroupBox1.Controls.Add(this.label4);
             this.bunifuGroupBox1.Controls.Add(this.dtpngaysinh);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel5);
             this.bunifuGroupBox1.Controls.Add(this.cbcv);
             this.bunifuGroupBox1.Controls.Add(this.rdnu);
             this.bunifuGroupBox1.Controls.Add(this.rdnam);
@@ -289,13 +296,6 @@
             this.bunifuGroupBox1.Controls.Add(this.txtdiachi);
             this.bunifuGroupBox1.Controls.Add(this.txttennv);
             this.bunifuGroupBox1.Controls.Add(this.txtmanv);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel6);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel7);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel8);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel4);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel3);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel2);
-            this.bunifuGroupBox1.Controls.Add(this.bunifuLabel1);
             this.bunifuGroupBox1.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuGroupBox1.ForeColor = System.Drawing.Color.White;
             this.bunifuGroupBox1.LabelAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -332,22 +332,6 @@
             this.dtpngaysinh.Size = new System.Drawing.Size(260, 32);
             this.dtpngaysinh.TabIndex = 17;
             this.dtpngaysinh.Value = new System.DateTime(2022, 12, 15, 10, 49, 0, 0);
-            // 
-            // bunifuLabel5
-            // 
-            this.bunifuLabel5.AllowParentOverrides = false;
-            this.bunifuLabel5.AutoEllipsis = false;
-            this.bunifuLabel5.CursorType = null;
-            this.bunifuLabel5.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel5.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel5.Location = new System.Drawing.Point(646, 22);
-            this.bunifuLabel5.Name = "bunifuLabel5";
-            this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(74, 21);
-            this.bunifuLabel5.TabIndex = 16;
-            this.bunifuLabel5.Text = "Ngày Sinh:";
-            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // cbcv
             // 
@@ -784,122 +768,6 @@
             this.txtmanv.TextPlaceholder = "";
             this.txtmanv.UseSystemPasswordChar = false;
             this.txtmanv.WordWrap = true;
-            // 
-            // bunifuLabel6
-            // 
-            this.bunifuLabel6.AllowParentOverrides = false;
-            this.bunifuLabel6.AutoEllipsis = false;
-            this.bunifuLabel6.CursorType = null;
-            this.bunifuLabel6.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel6.Location = new System.Drawing.Point(648, 160);
-            this.bunifuLabel6.Name = "bunifuLabel6";
-            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(72, 21);
-            this.bunifuLabel6.TabIndex = 6;
-            this.bunifuLabel6.Text = "Mật khẩu:";
-            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel7
-            // 
-            this.bunifuLabel7.AllowParentOverrides = false;
-            this.bunifuLabel7.AutoEllipsis = false;
-            this.bunifuLabel7.CursorType = null;
-            this.bunifuLabel7.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel7.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel7.Location = new System.Drawing.Point(656, 114);
-            this.bunifuLabel7.Name = "bunifuLabel7";
-            this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel7.Size = new System.Drawing.Size(64, 21);
-            this.bunifuLabel7.TabIndex = 5;
-            this.bunifuLabel7.Text = "Chức Vụ:";
-            this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel8
-            // 
-            this.bunifuLabel8.AllowParentOverrides = false;
-            this.bunifuLabel8.AutoEllipsis = false;
-            this.bunifuLabel8.CursorType = null;
-            this.bunifuLabel8.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel8.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel8.Location = new System.Drawing.Point(619, 68);
-            this.bunifuLabel8.Name = "bunifuLabel8";
-            this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel8.Size = new System.Drawing.Size(101, 21);
-            this.bunifuLabel8.TabIndex = 4;
-            this.bunifuLabel8.Text = "Số Điện Thoại:";
-            this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel4
-            // 
-            this.bunifuLabel4.AllowParentOverrides = false;
-            this.bunifuLabel4.AutoEllipsis = false;
-            this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel4.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel4.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel4.Location = new System.Drawing.Point(143, 160);
-            this.bunifuLabel4.Name = "bunifuLabel4";
-            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(54, 21);
-            this.bunifuLabel4.TabIndex = 3;
-            this.bunifuLabel4.Text = "Địa Chỉ:";
-            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel3
-            // 
-            this.bunifuLabel3.AllowParentOverrides = false;
-            this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel3.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel3.Location = new System.Drawing.Point(130, 114);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(69, 21);
-            this.bunifuLabel3.TabIndex = 2;
-            this.bunifuLabel3.Text = "Giới Tính:";
-            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel2.Location = new System.Drawing.Point(92, 68);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(108, 21);
-            this.bunifuLabel2.TabIndex = 1;
-            this.bunifuLabel2.Text = "Tên Nhân Viên:";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(92, 22);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(105, 21);
-            this.bunifuLabel1.TabIndex = 0;
-            this.bunifuLabel1.Text = "Mã Nhân Viên:";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // btnThem
             // 
@@ -1411,6 +1279,94 @@
             this.columnHeader8.Text = "Chức vụ";
             this.columnHeader8.Width = 102;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(89, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(111, 21);
+            this.label4.TabIndex = 36;
+            this.label4.Text = "Mã nhân viên:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(87, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(113, 21);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Tên nhân viên:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(123, 114);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 21);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Giới tính:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(138, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 21);
+            this.label3.TabIndex = 39;
+            this.label3.Text = "Địa chỉ:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(637, 22);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(83, 21);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "Ngày sinh:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(679, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 21);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "SDT:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(648, 114);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(72, 21);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Chức vụ:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(638, 160);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(82, 21);
+            this.label8.TabIndex = 43;
+            this.label8.Text = "Mật khẩu:";
+            // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1444,13 +1400,6 @@
         private Bunifu.UI.WinForms.BunifuTextBox txtdiachi;
         private Bunifu.UI.WinForms.BunifuTextBox txttennv;
         private Bunifu.UI.WinForms.BunifuTextBox txtmanv;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel6;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel7;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel8;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private System.Windows.Forms.RadioButton rdnu;
         private System.Windows.Forms.RadioButton rdnam;
         private Bunifu.UI.WinForms.BunifuTextBox txtmk;
@@ -1462,7 +1411,6 @@
         private Bunifu.UI.WinForms.BunifuDropdown cbcv;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnHuy;
         private Bunifu.UI.WinForms.BunifuDatePicker dtpngaysinh;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel5;
         private Bunifu.UI.WinForms.BunifuTextBox txttimkiem;
         private System.Windows.Forms.ListView lvnv;
         private System.Windows.Forms.ColumnHeader columnHeader1;
@@ -1473,5 +1421,13 @@
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -38,11 +38,11 @@
             this.lvds = new System.Windows.Forms.ListView();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.lbltongkh = new System.Windows.Forms.Label();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.btntkcp = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbltongno = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.bunifuPanel1.SuspendLayout();
             this.bunifuPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -255,12 +255,12 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 20;
             this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.label4);
             this.bunifuPanel1.Controls.Add(this.lbltongkh);
-            this.bunifuPanel1.Controls.Add(this.bunifuLabel1);
             this.bunifuPanel1.Location = new System.Drawing.Point(632, 120);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(200, 110);
+            this.bunifuPanel1.Size = new System.Drawing.Size(205, 110);
             this.bunifuPanel1.TabIndex = 7;
             // 
             // lbltongkh
@@ -269,29 +269,11 @@
             this.lbltongkh.BackColor = System.Drawing.Color.Transparent;
             this.lbltongkh.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltongkh.ForeColor = System.Drawing.Color.White;
-            this.lbltongkh.Location = new System.Drawing.Point(90, 73);
+            this.lbltongkh.Location = new System.Drawing.Point(95, 65);
             this.lbltongkh.Name = "lbltongkh";
             this.lbltongkh.Size = new System.Drawing.Size(20, 23);
             this.lbltongkh.TabIndex = 1;
             this.lbltongkh.Text = "0";
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.AutoSize = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(24, 14);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(152, 56);
-            this.bunifuLabel1.TabIndex = 0;
-            this.bunifuLabel1.Text = "Tổng số khách hàng hiện tại";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // btntkcp
             // 
@@ -391,30 +373,13 @@
             this.bunifuPanel2.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel2.BorderRadius = 20;
             this.bunifuPanel2.BorderThickness = 1;
-            this.bunifuPanel2.Controls.Add(this.bunifuLabel2);
+            this.bunifuPanel2.Controls.Add(this.label1);
             this.bunifuPanel2.Controls.Add(this.lbltongno);
-            this.bunifuPanel2.Location = new System.Drawing.Point(875, 120);
+            this.bunifuPanel2.Location = new System.Drawing.Point(866, 120);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(200, 110);
+            this.bunifuPanel2.Size = new System.Drawing.Size(209, 110);
             this.bunifuPanel2.TabIndex = 9;
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.AutoSize = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel2.Location = new System.Drawing.Point(25, 14);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(152, 65);
-            this.bunifuLabel2.TabIndex = 2;
-            this.bunifuLabel2.Text = "Tổng số khách hàng chưa thanh toán";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // lbltongno
             // 
@@ -422,11 +387,38 @@
             this.lbltongno.BackColor = System.Drawing.Color.Transparent;
             this.lbltongno.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltongno.ForeColor = System.Drawing.Color.White;
-            this.lbltongno.Location = new System.Drawing.Point(90, 73);
+            this.lbltongno.Location = new System.Drawing.Point(101, 65);
             this.lbltongno.Name = "lbltongno";
             this.lbltongno.Size = new System.Drawing.Size(20, 23);
             this.lbltongno.TabIndex = 1;
             this.lbltongno.Text = "0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(2, 29);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(203, 21);
+            this.label4.TabIndex = 36;
+            this.label4.Text = "Tổng số khách hàng hiện tại";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(0, 29);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(210, 21);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Khách hàng chưa thanh toán";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmThongKe
             // 
@@ -461,10 +453,10 @@
         private System.Windows.Forms.ListView lvds;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private System.Windows.Forms.Label lbltongkh;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btntkcp;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
         private System.Windows.Forms.Label lbltongno;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
     }
 }
